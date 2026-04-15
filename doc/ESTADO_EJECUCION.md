@@ -24,7 +24,7 @@
 | 2 | Capa de Datos JSON | Ingeniero Fullstack | ✅ Completada | 2026-04-08 17:50 | 2026-04-08 17:52 | RESUMEN_FASE_2_DATOS.md |
 | 3 | Tipos y Validación TS | Ingeniero Fullstack | ✅ Completada | 2026-04-08 18:20 | 2026-04-08 18:22 | RESUMEN_FASE_3_TIPOS.md |
 | 4 | API Route Handler | Ingeniero Fullstack | ✅ Completada | 2026-04-08 18:22 | 2026-04-08 18:27 | RESUMEN_FASE_4_API.md |
-| 5 | UI / Home — Hola Mundo | Diseñador UX/UI | ⬜ Pendiente | — | — | — |
+| 5 | UI / Home — Hola Mundo | Diseñador UX/UI | ⬜ Pendiente  | — | — | — |
 | 6 | Pipeline CI/CD | Ingeniero Fullstack | ⬜ Pendiente | — | — | — |
 | 7 | Validación y Despliegue | Ingeniero Fullstack | ⬜ Pendiente | — | — | — |
 
