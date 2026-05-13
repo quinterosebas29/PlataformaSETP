@@ -1,0 +1,10 @@
+// Tokens de espaciado del design system SETP SM
+export const spacing = {
+  xs: '4px',
+  sm: '8px',
+  md: '12px',
+  lg: '16px',
+  xl: '24px',
+  '2xl': '32px',
+  '3xl': '48px',
+} as const;

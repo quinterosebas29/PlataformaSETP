@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: var(--color-primary);
+  --color-primary-light: var(--color-primary-light);
+  --color-accent: var(--color-accent);
+  --color-bg: var(--color-bg);
+  --color-surface: var(--color-surface);
+  --color-text-primary: var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-border: var(--color-border);
+  --color-success: var(--color-success);
+  --color-warning: var(--color-warning);
+  --color-error: var(--color-error);
+  --color-ruta-03: var(--color-ruta-03);
+  --color-ruta-11: var(--color-ruta-11);
+  --color-ruta-16: var(--color-ruta-16);
+  --color-offline-bg: var(--color-offline-bg);
+  --color-offline-text: var(--color-offline-text);
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+}
+
+:root {
+  /* ─── Colores de marca ─── */
+  --color-primary: #0D2B55;
+  --color-primary-light: #1E4080;
+  --color-accent: #F5C518;
+
+  /* ─── Colores base ─── */
+  --color-bg: #F8F9FA;
+  --color-surface: #FFFFFF;
+  --color-text-primary: #1A1A2E;
+  --color-text-secondary: #6B7280;
+  --color-border: #E2E8F0;
+
+  /* ─── Colores de estado ─── */
+  --color-success: #22C55E;
+  --color-warning: #F97316;
+  --color-error: #EF4444;
+
+  /* ─── Colores de rutas ─── */
+  --color-ruta-03: #2563EB;   /* Mamatoco – Centro */
+  --color-ruta-11: #16A34A;   /* Bastidas – Taganga */
+  --color-ruta-16: #DC2626;   /* Gaira – El Rodadero */
+
+  /* ─── Colores de offline ─── */
+  --color-offline-bg: #FEF3C7;
+  --color-offline-text: #92400E;
+
+  /* ─── Fuentes ─── */
+  --font-display: var(--font-plus-jakarta-sans, 'Plus Jakarta Sans', sans-serif);
+  --font-body: var(--font-dm-sans, 'DM Sans', sans-serif);
+
+  /* ─── Espaciado base ─── */
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --bottom-nav-height: 64px;
+}
+
+/* ─── Reset y base ─── */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.5;
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+/* ─── Utilidades globales ─── */
+.font-display { font-family: var(--font-display); }
+.font-body    { font-family: var(--font-body); }
+
+/* ─── Scrollbar oculta (Mobile UX) ─── */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar { display: none; }
