@@ -1,0 +1,41 @@
+{
+  "routes": [
+    { "id": "03", "name": "Mamatoco – Centro Histórico", "color": "#2563EB" },
+    { "id": "11", "name": "Bastidas – Taganga",          "color": "#16A34A" },
+    { "id": "16", "name": "Gaira – El Rodadero",         "color": "#DC2626" }
+  ],
+  "stops": [
+    { "id": "s01", "name": "Parada Mamatoco",            "lat": 11.2490, "lng": -74.1820 },
+    { "id": "s02", "name": "Estadio Sierra Nevada",      "lat": 11.2380, "lng": -74.1900 },
+    { "id": "s03", "name": "Av. del Río",                "lat": 11.2330, "lng": -74.1935 },
+    { "id": "s04", "name": "Universidad Sergio Arboleda","lat": 11.2310, "lng": -74.1950 },
+    { "id": "s05", "name": "Catedral",                   "lat": 11.2408, "lng": -74.2073 },
+    { "id": "s06", "name": "Mercado / Centro Histórico", "lat": 11.2440, "lng": -74.2100 },
+    { "id": "s07", "name": "Bastidas",                   "lat": 11.2550, "lng": -74.2050 },
+    { "id": "s08", "name": "Taganga",                    "lat": 11.2680, "lng": -74.1880 },
+    { "id": "s09", "name": "Gaira",                      "lat": 11.1980, "lng": -74.2200 },
+    { "id": "s10", "name": "El Rodadero",                "lat": 11.2090, "lng": -74.2280 }
+  ],
+  "route_stops": [
+    { "route_id": "03", "stop_id": "s01", "order": 1 },
+    { "route_id": "03", "stop_id": "s02", "order": 2 },
+    { "route_id": "03", "stop_id": "s03", "order": 3 },
+    { "route_id": "03", "stop_id": "s04", "order": 4 },
+    { "route_id": "03", "stop_id": "s05", "order": 5 },
+    { "route_id": "03", "stop_id": "s06", "order": 6 },
+    { "route_id": "11", "stop_id": "s01", "order": 1 },
+    { "route_id": "11", "stop_id": "s03", "order": 2 },
+    { "route_id": "11", "stop_id": "s07", "order": 3 },
+    { "route_id": "11", "stop_id": "s08", "order": 4 },
+    { "route_id": "16", "stop_id": "s09", "order": 1 },
+    { "route_id": "16", "stop_id": "s10", "order": 2 },
+    { "route_id": "16", "stop_id": "s04", "order": 3 },
+    { "route_id": "16", "stop_id": "s06", "order": 4 }
+  ],
+  "buses": [
+    { "id": "b01", "route_id": "03", "current_stop_index": 1, "eta_to_next_stop_seconds": 240, "status": "en_ruta" },
+    { "id": "b02", "route_id": "03", "current_stop_index": 3, "eta_to_next_stop_seconds": 120, "status": "en_ruta" },
+    { "id": "b03", "route_id": "11", "current_stop_index": 0, "eta_to_next_stop_seconds": 360, "status": "en_ruta" },
+    { "id": "b04", "route_id": "16", "current_stop_index": 1, "eta_to_next_stop_seconds": 600, "status": "demorado" }
+  ]
+}
